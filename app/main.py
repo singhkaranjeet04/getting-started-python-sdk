@@ -17,7 +17,7 @@ CORS(app)
 access = None
 
 # Ensure SETUP is completed, then instantiate an AuthClient
-client = smartcar.AuthClient(mode="test")
+client = smartcar.AuthClient(mode="simulated")
 
 # scope of permissions
 scope = ["read_vehicle_info"]
