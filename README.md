@@ -5,7 +5,7 @@ This kit contains a simple web application that displays car information using S
 ## Instructions
 Before we get started, create an application on Smartcar's Developer Dashboard to get your API keys.
 
-**Note:** On the dashboard, you will want to set your `redirect_uri` as `http://localhost:8000/exchange`.
+**Note:** On the Dashboard, you will want to set your `redirect_uri` as `http://localhost:8000/exchange`.
 
 Then, we can set these as environment variables -
 ```bash
@@ -29,7 +29,7 @@ $ pip install -r requirements.txt
 $ python main.py
 ```
 
-Once your server is up and running, you can authenticate your vehicle. In our current set up, we are using Smartcar's [test mode](https://smartcar.com/docs/guides/testing/), so you can log in with any username and password. To authenticate, navigate to `http://localhost:8000/login`. Once you have authenticated, go to `http://localhost:8000/vehicle` to see your vehicle information.
+Once your server is up and running, you can authenticate your vehicle. In our current set up, we are using Smartcar's [simulated mode](https://smartcar.com/docs/getting-started/dashboard/simulator), so you can log in with simulated credentials found in your Smartcar Dashboard or with any username and password. To authenticate, navigate to `http://localhost:8000/login`. Once you have authenticated, go to `http://localhost:8000/vehicle` to see your vehicle information.
 
 
 
