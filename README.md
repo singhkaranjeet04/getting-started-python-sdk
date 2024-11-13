@@ -29,7 +29,7 @@ $ pip install -r requirements.txt
 $ python main.py
 ```
 
-Once your server is up and running, you can authenticate your vehicle. In our current set up, we are using Smartcar's [simulated mode](https://smartcar.com/docs/getting-started/dashboard/simulator), so you can log in simulated credentials found in your Smartcar Dashboard or with any username and password. To authenticate, navigate to `http://localhost:8000/login`. Once you have authenticated, go to `http://localhost:8000/vehicle` to see your vehicle information.
+Once your server is up and running, you can authenticate your vehicle. In our current set up, we are using Smartcar's [simulated mode](https://smartcar.com/docs/getting-started/dashboard/simulator), so you can log in with simulated credentials found in your Smartcar Dashboard or with any username and password. To authenticate, navigate to `http://localhost:8000/login`. Once you have authenticated, go to `http://localhost:8000/vehicle` to see your vehicle information.
 
 
 
