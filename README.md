@@ -9,8 +9,8 @@ Before we get started, create an application on Smartcar's Developer Dashboard t
 
 Then, we can set these as environment variables -
 ```bash
-$ export SMARTCAR_CLIENT_ID=<your-client-id>
-$ export SMARTCAR_CLIENT_SECRET=<your-client-secret>
+$ export SMARTCAR_CLIENT_ID=<your-client-id>90ae0027-a51f-4106-952f-0abef08de67f
+$ export SMARTCAR_CLIENT_SECRET=<your-client-secret>749a8ccc-c675-4d0d-99f7-aac8b70461a8
 $ export SMARTCAR_REDIRECT_URI=http://localhost:8000/exchange
 ```
 
